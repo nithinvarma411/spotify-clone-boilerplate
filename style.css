@@ -1,193 +1,234 @@
-body {
-    background-color: black
-}
-
-.home {
+.slidebar{
+    
+    width: 250px;
     display: flex;
-    flex-wrap: wrap;
-    color: white;
-    padding-left: 10px;
+    flex-direction: column;
+    
+    
+
 }
 
-.home img {
+
+
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color:black;
+        color: white;
+        margin: 0;
+        padding: 0;
+        display: flex; 
+         height: 100vh;
+      }
+
+
+
+
+.menu{
+        width: 250px;
+        height: 300px;
+    
+        
+
+        
+    }
+
+
+    .menu1{
+        
+        display: flex;
+        flex-direction: row;
+       gap: 22px;
+       
+    }
+    
+    .amenu1{
+    
+        height: 30px;
+        width: 30px;
+
+    }
+
+    .bmenu1{
+        
+        margin-top: 6px;
+
+    }
+.playlist{
+
+    width: 250px;
+    height: 250px;
+    margin-top: 90px;
+
+}
+.playlist1{
+    
     height: 20px;
-    padding-top: 10px;
+
 }
 
-.home p {
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    padding-top: -10px;
-}
 
-.spotify img {
-    width: 10%;
-}
-
-.library {
+.install{
+    
+    margin-top: 25px;
     display: flex;
-    flex-wrap: wrap;
-    color: white;
-    padding-left: 10px;
+    flex-direction: row;
+    gap: 20px;
 }
 
-.library p {
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    padding-top: -10px;
+
+.install-img{
+    height: 30px;
+    width: 30px;
 }
 
-.library img {
-    height: 20px;
-    padding-top: 10px;
+
+.abc{
+    margin-top: 7px;
 }
 
-.search {
+.q{ font-size: 15px;}
+
+
+
+.last-photo{
+    height: 30px;
+    width: 30px;
     display: flex;
-    flex-wrap: wrap;
-    color: white;
-    padding-left: 10px;
+    flex-direction: row;
+    
+    margin-top: 8px;
+    gap: 10px;
 }
 
-.search img {
-    height: 20px;
-    padding-top: 10px;
+.last-photo1{
+    height: 30px;
+    width: 30px;
 }
 
-.search p {
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    padding-top: -10px;
+
+
+.main-content{
+
+    overflow-y: auto;
+    flex-grow: 1;
+    margin-top: 68px;
+   
 }
 
-.liked {
+
+header {
+    
+
+}
+
+header h2 {
+    margin-bottom: 20px;
+}
+
+
+.playlist-row {
     display: flex;
-    flex-wrap: wrap;
-    color: white;
-    padding-left: 10px;
+    gap: 60px;
 }
 
-.liked img {
-    height: 20px;
-    padding-top: 10px;
-}
 
-.liked p {
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    padding-top: -10px;
-}
 
-.episodes {
+
+.playlist-box{
     display: flex;
-    flex-wrap: wrap;
-    color: white;
-    padding-left: 10px;
+    flex-direction: row;
+
+height: 75px;
+width: 350px;
+
+
 }
 
-.episodes img {
-    height: 20px;
-    padding-right: 20px;
+.div2{
+    height:75px;
+    width: 75px;
 }
 
-.episodes p {
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    padding-top: -10px;
+
+
+
+.a1{
+    background-color: gray;
+
+    width: 180px;
+   padding-left: 10px;
+   padding-top: 8px;
 }
 
-.create {
+.logo{
+    height: 60px;
+    width: 150px;
+   justify-content: center;
+}
+
+#slogo{
+    padding-left: 30px;
+    
+}
+
+
+.show{
+    height: 350px;
+
+}
+
+
+.show-heading{
+
     display: flex;
-    flex-wrap: wrap;
-    color: white;
-    padding-left: 10px;
+    gap: 1000px;
 }
 
-.create img {
-    height: 20px;
-    padding-top: 10px;
+
+.ab{
+
+
+   font-size: 20px;
+
 }
 
-.create p {
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    padding-top: -10px;
+.show-content{ 
+    height: 260px;
+display: flex;
+flex-direction: row;
+gap: 60px;
 }
 
-.list {
-    color: white;
-    list-style: none;
-    padding-left: 10px;
+.show-content-box{
+    height: 180px;
+    width: 160px;
+
 }
 
-h1 {
-    color: white;
-    padding-left: 10px;
-}
 
-.install {
+.play-bar{
+    height: 100px;
+    padding-left: 160px;
+    width: 1200px;
     display: flex;
-    flex-wrap: wrap;
-    color: white;
-    padding-left: 10px;
+    flex-direction: row;
+    gap: 210px;
 }
 
-.install img {
-    height: 20px;
-    padding-top: 10px;
+
+.play-bar1{
+    height: 65px;
+   
+    width: 600px;
 }
 
-.install p {
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    padding-top: -10px;
-}
 
-.dream {
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
-    padding-left: 10px;
-}
 
-.dream img {
-    height: 50px;
-    padding-top: 10px;
-}
+.foot1{
+    width: 337px;
+    height: 40px;
 
-.dream p {
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    padding-top: -10px;
-}
-
-.arrow img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    padding-bottom: 50px;
-}
-
-.arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.right {
-    display: flex;
-    justify-content: center;
-}
-
-.right img {
-    width: 300px;
 }
