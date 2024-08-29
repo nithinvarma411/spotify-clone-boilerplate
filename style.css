@@ -1,0 +1,193 @@
+body {
+    background-color: black
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-left: 10px;
+}
+
+.home img {
+    height: 20px;
+    padding-top: 10px;
+}
+
+.home p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: -10px;
+}
+
+.spotify img {
+    width: 10%;
+}
+
+.library {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-left: 10px;
+}
+
+.library p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: -10px;
+}
+
+.library img {
+    height: 20px;
+    padding-top: 10px;
+}
+
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-left: 10px;
+}
+
+.search img {
+    height: 20px;
+    padding-top: 10px;
+}
+
+.search p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: -10px;
+}
+
+.liked {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-left: 10px;
+}
+
+.liked img {
+    height: 20px;
+    padding-top: 10px;
+}
+
+.liked p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: -10px;
+}
+
+.episodes {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-left: 10px;
+}
+
+.episodes img {
+    height: 20px;
+    padding-right: 20px;
+}
+
+.episodes p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: -10px;
+}
+
+.create {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-left: 10px;
+}
+
+.create img {
+    height: 20px;
+    padding-top: 10px;
+}
+
+.create p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: -10px;
+}
+
+.list {
+    color: white;
+    list-style: none;
+    padding-left: 10px;
+}
+
+h1 {
+    color: white;
+    padding-left: 10px;
+}
+
+.install {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-left: 10px;
+}
+
+.install img {
+    height: 20px;
+    padding-top: 10px;
+}
+
+.install p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: -10px;
+}
+
+.dream {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-left: 10px;
+}
+
+.dream img {
+    height: 50px;
+    padding-top: 10px;
+}
+
+.dream p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: -10px;
+}
+
+.arrow img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding-bottom: 50px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+.right img {
+    width: 300px;
+}
